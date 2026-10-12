@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Krpano HTML Downloader",
+  "version": "2.0",
+  "description": "Krpano base64 payload html downloader extension",
+  "permissions": ["activeTab", "downloads", "contextMenus", "notifications"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
